@@ -1,0 +1,426 @@
+/* ///////////////////     1600px      ////////////////////// */
+
+@media only screen and (max-width: 1600px) {
+  section#section2 div.sub-section2 {
+    width: 90% !important;
+    transition: 0.5s;
+  }
+}
+
+/* ///////////////////     1450px      ////////////////////// */
+@media only screen and (max-width: 1450px) {
+  div.about {
+    justify-content: center !important;
+  }
+
+  div.about div.about-detail {
+    width: 80% !important;
+    transition: 0.5s;
+  }
+}
+
+/* ///////////////////     1000px      ////////////////////// */
+
+@media only screen and (max-width: 1000px) {
+  section#section2 div.sub-section2 div.sec2-brand {
+    margin-bottom: 25px !important;
+  }
+
+  .nav-content {
+    display: none !important;
+  }
+
+  section#section2 div.brand-top {
+    width: 90% !important;
+  }
+
+  .ham-icon {
+    display: block !important;
+  }
+
+  section#section1 div.sub-section div.arrow i {
+    left: 40% !important;
+    top: 70% !important;
+  }
+
+  .back-img1,
+  .back-img2 {
+    display: none;
+  }
+
+  div.about {
+    margin: 100px auto !important;
+  }
+
+  section#section1 div.sub-section div.side-media {
+    min-width: 0px !important;
+    margin-top: 80px;
+    height: 470px !important;
+  }
+
+  section#section1 div.sub-section div.big-text h2 {
+    font-size: 100px !important;
+    letter-spacing: -3px !important;
+    margin-left: 100px;
+    text-align: left;
+  }
+
+  .side-media {
+    display: none !important;
+  }
+
+  section#section1 div.sub-section {
+    height: 80%;
+  }
+
+  .end {
+    width: 25% !important;
+  }
+
+  section#section1 {
+    height: 100vh !important;
+  }
+
+  .brand {
+    width: 20% !important;
+  }
+
+  #brand5 {
+    display: none !important;
+  }
+}
+
+/* //////////////////////   800px   ///////////////////////// */
+@media only screen and (max-width: 800px) {
+  .showcase-sec-com div.showcase-sec1-left,
+  div.showcase-sec2-left,
+  div.showcase-sec3-left,
+  div.showcase-sec4-left {
+    display: flex;
+    align-items: flex-start !important;
+    flex-direction: column !important;
+    gap: 15px;
+  }
+
+  div.showcase div.showcase-sec1,
+  div.showcase-sec2,
+  div.showcase-sec3,
+  div.showcase-sec4 {
+    /* flex-direction: column !important; */
+    height: auto !important;
+    align-items: flex-start !important;
+    gap: 15px;
+    padding: 20px 0 !important;
+  }
+
+  .showcase-sec-com div.showcase-sec1-left h2,
+  div.showcase-sec2-left h2,
+  div.showcase-sec3-left h2,
+  div.showcase-sec4-left h2 {
+    font-size: 20px !important;
+  }
+}
+
+/* //////////////////////   700px   ///////////////////////// */
+@media only screen and (max-width: 700px) {
+  div.service {
+    width: 100% !important;
+    transition: 0.5s !important;
+  }
+
+  #brand7 {
+    display: none !important;
+  }
+
+  div.detail-sect {
+    width: 100% !important;
+    padding: 50px 0px !important;
+  }
+
+  div.foot-section {
+    width: 93% !important;
+    /* font-size: 20px !important; */
+  }
+
+  div.foot-bottom div.foot-left a {
+    font-size: 17px !important;
+    margin-bottom: 35px !important;
+  }
+
+  div.foot-bottom {
+    margin-top: 50px !important;
+  }
+
+  div.foot-bottom {
+    padding-bottom: 60px !important;
+  }
+}
+
+/* //////////////////////   600px   ///////////////////////// */
+
+@media only screen and (max-width: 600px) {
+  div.about div.about-imgdiv {
+    width: 330px !important;
+    height: 330px !important;
+    transition: 0.5s;
+  }
+
+  section#section2 div.brands {
+    margin: 0 auto !important;
+    border-top: 1px solid #1f1f1f;
+    border-bottom: 1px solid #1f1f1f;
+  }
+
+  section#section3 div.sec3-main {
+    width: 90% !important;
+    height: 350px !important;
+    transition: 0.5s;
+    padding: 30px 0px !important;
+  }
+
+  div.sec3-main-img {
+    background-size: cover, cover !important;
+    background-position: top !important;
+  }
+
+  section#section3 div.marquee {
+    border-bottom: 1px solid #1f1f1f;
+    font-size: 80px !important;
+    padding: 30px 0px;
+  }
+
+  section#section2 div.features {
+    margin-top: 0px !important;
+  }
+
+  div.service div.service-sect1 h1 {
+    font-size: 30px !important;
+    letter-spacing: -2px !important;
+  }
+
+  #brand3 {
+    display: none !important;
+  }
+
+  #brand4 {
+    display: none !important;
+  }
+
+  .brand {
+    width: 40% !important;
+  }
+
+  div.team div.team-sect1 h1 {
+    font-size: 32px !important;
+    transition: 0.5s;
+  }
+
+  div.showcase-sec3:hover div.showcase-sec3-hover-img {
+    display: none !important;
+  }
+
+  div.contact {
+    width: 100% !important;
+    margin: 50px auto !important;
+    padding-top: 30px !important;
+    border-top: 1px solid #1f1f1f;
+  }
+
+  div.contact h1 {
+    transition: 0.5s;
+    font-size: 30px !important;
+    letter-spacing: 1px !important;
+  }
+
+  div.showcase div.showcase-sec0 h1 {
+    font-size: 32px !important;
+  }
+}
+
+/* //////////////////////   500px   ///////////////////////// */
+
+@media only screen and (max-width: 500px) {
+  section#section2 div.sub-section2 {
+    width: 100% !important;
+    transition: 0.5s;
+  }
+
+  section#section2 div.sub-section2 div.sec2-brand {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+
+  section#section1 div.sub-section div.big-text h2 {
+    font-size: 55px !important;
+    letter-spacing: -3px !important;
+    /* margin-top: 50%; */
+    margin-left: 30px;
+    text-align: left !important;
+  }
+
+  section#section1 div.sub-section div.arrow i {
+    left: 10% !important;
+    top: 60% !important;
+  }
+
+  .end {
+    width: 15% !important;
+  }
+
+  section#section1 div.section-end p {
+    font-size: 10px !important;
+  }
+
+  .side-media {
+    display: none !important;
+  }
+
+  div.about div.about-detail h1 {
+    font-size: 30px !important;
+    letter-spacing: -1px !important;
+  }
+
+  div.about div.about-detail {
+    width: 100% !important;
+  }
+
+  div.service {
+    width: 100% !important;
+    padding: 50px 0px;
+    border-top: 1px solid #1f1f1f;
+    border-bottom: 1px solid #1f1f1f;
+  }
+
+  .content {
+    width: 92% !important;
+    transition: 0.5s !important;
+  }
+
+  div.showcase div.showcase-sec1,
+  div.showcase-sec2,
+  div.showcase-sec3,
+  div.showcase-sec4 {
+    flex-direction: column !important;
+    transition: 0.5s;
+  }
+
+  .sub-c {
+    width: 145px !important;
+    height: 145px !important;
+  }
+}
+
+/* ////////////////////////   400px   ////////////////////// */
+@media only screen and (max-width: 400px) {
+  div.content2 {
+    width: 96% !important;
+  }
+
+  div.comp-detail {
+    width: 98% !important;
+    transition: 0.5s;
+  }
+
+  div.post {
+    width: 95% !important;
+  }
+
+  div.content3 {
+    width: 100% !important;
+  }
+
+  div.showcase-sec2:hover div.showcase-sec2-hover-img {
+    display: none !important;
+  }
+
+  div.foot-bottom div.foot-right {
+    flex-direction: column !important;
+  }
+
+  div.foot-bottom div.foot-right div.sub-foot-right {
+    margin: 20px 0px;
+  }
+}
+
+/* ////////////////////////   350px   ////////////////////// */
+@media only screen and (max-width: 350px) {
+  div.about div.about-imgdiv {
+    width: 260px !important;
+    height: 260px !important;
+    transition: 0.5s;
+  }
+
+  div.sub-display1-content h4,
+  div.sub-display2-content h4,
+  div.sub-display3-content h4 {
+    font-size: 20px !important;
+  }
+
+  .showcase-sec-com div.showcase-sec1-left h2,
+  div.showcase-sec2-left h2,
+  div.showcase-sec3-left h2,
+  div.showcase-sec4-left h2 {
+    font-size: 15px !important;
+  }
+
+  .sub-c {
+    width: 130px !important;
+    height: 130px !important;
+  }
+
+  div.contact h1 {
+    transition: 0.5s;
+    font-size: 20px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .content2 div.team-sub-sect {
+    width: 275px !important;
+    left: -10px !important;
+  }
+
+  div.foot-bottom div.foot-left a {
+    font-size: 14px !important;
+    margin-bottom: 35px !important;
+  }
+
+  div.foot-bottom div.foot-left p {
+    font-size: 18px !important;
+  }
+
+  div.foot-section div.foot-top {
+    flex-wrap: wrap !important;
+  }
+
+  div.foot-bottom p.copyright {
+    font-size: 13px !important;
+  }
+
+  div.sub-feat1-content p,
+  div.sub-feat2-content p,
+  div.sub-feat3-content p {
+    padding-bottom: 25px !important;
+  }
+
+  section#section2
+    div.features
+    div.sub-features
+    div.sub-feat1 
+    div.sub-feat1-content,
+  section#section2
+    div.features
+    div.sub-features
+    div.sub-feat2
+    div.sub-feat2-content,
+  section#section2
+    div.features
+    div.sub-features
+    div.sub-feat3
+    div.sub-feat3-content {
+    padding: 30px !important;
+  }
+  section#section1 div.sub-section div.arrow i {
+    left: 10% !important;
+    top: 70% !important;
+  }
+}
