@@ -226,7 +226,6 @@ div.sub-page-detail:hover {
   transition: 0.5s;
   cursor: pointer;
   color: white !important;
-
 }
 
 /* ///////////////////////////    Service-detail     ////////////////////// */
@@ -275,7 +274,6 @@ div.sub-service-detail:hover {
   transition: 0.5s;
   cursor: pointer;
   color: white !important;
-
 }
 
 /* ///////////////////////////    Portfolio-detail     ////////////////////// */
@@ -324,7 +322,6 @@ div.sub-portfolio-detail:hover {
   transition: 0.5s;
   cursor: pointer;
   color: white !important;
-
 }
 
 /* ///////////////////////////    Shop-detail     ////////////////////// */
@@ -373,7 +370,6 @@ div.sub-shop-detail:hover {
   transition: 0.5s;
   cursor: pointer;
   color: white !important;
-
 }
 
 /* ///////////////////////////    Blog-detail     ////////////////////// */
@@ -422,9 +418,7 @@ div.sub-blog-detail:hover {
   transition: 0.5s;
   cursor: pointer;
   color: white !important;
-
 }
-
 
 /* ///////////////////////////////     section1        //////////////////////////////////// */
 
@@ -476,7 +470,11 @@ section#section1 div.sub-section div.side-media div.number p.vertical-text {
   cursor: pointer;
 }
 
-section#section1 div.sub-section div.side-media div.number p.vertical-text:hover {
+section#section1
+  div.sub-section
+  div.side-media
+  div.number
+  p.vertical-text:hover {
   color: #f5900d;
   transition: 0.7s;
 }
@@ -539,7 +537,6 @@ section#section1 div.sub-section div.back-img2 {
   height: 750px;
   width: 100%;
 }
-
 
 section#section2 div.brand-top {
   display: flex;
@@ -713,7 +710,11 @@ section#section2 div.features div.sub-features div.sub-feat3 {
   margin: 20px;
 }
 
-section#section2 div.features div.sub-features div.sub-feat1:hover div.sub-feat1-content {
+section#section2
+  div.features
+  div.sub-features
+  div.sub-feat1:hover
+  div.sub-feat1-content {
   width: 90%;
   height: 90%;
   background-color: rgba(0, 0, 0, 0.858);
@@ -722,7 +723,11 @@ section#section2 div.features div.sub-features div.sub-feat1:hover div.sub-feat1
   display: block !important;
 }
 
-section#section2 div.features div.sub-features div.sub-feat2:hover div.sub-feat2-content {
+section#section2
+  div.features
+  div.sub-features
+  div.sub-feat2:hover
+  div.sub-feat2-content {
   width: 90%;
   height: 90%;
   background-color: rgba(0, 0, 0, 0.858);
@@ -731,7 +736,11 @@ section#section2 div.features div.sub-features div.sub-feat2:hover div.sub-feat2
   display: block !important;
 }
 
-section#section2 div.features div.sub-features div.sub-feat3:hover div.sub-feat3-content {
+section#section2
+  div.features
+  div.sub-features
+  div.sub-feat3:hover
+  div.sub-feat3-content {
   width: 90%;
   height: 90%;
   background-color: rgba(0, 0, 0, 0.858);
@@ -740,15 +749,27 @@ section#section2 div.features div.sub-features div.sub-feat3:hover div.sub-feat3
   display: block !important;
 }
 
-section#section2 div.features div.sub-features div.sub-feat1 div.sub-feat1-content {
+section#section2
+  div.features
+  div.sub-features
+  div.sub-feat1
+  div.sub-feat1-content {
   padding: 40px;
 }
 
-section#section2 div.features div.sub-features div.sub-feat2 div.sub-feat2-content {
+section#section2
+  div.features
+  div.sub-features
+  div.sub-feat2
+  div.sub-feat2-content {
   padding: 40px;
 }
 
-section#section2 div.features div.sub-features div.sub-feat3 div.sub-feat3-content {
+section#section2
+  div.features
+  div.sub-features
+  div.sub-feat3
+  div.sub-feat3-content {
   padding: 40px;
 }
 
@@ -1935,7 +1956,7 @@ div.foot-bottom div.foot-left a:hover {
 div.foot-bottom p.copyright {
   font-size: 16px;
 }
-div.foot-bottom p.copyright span{
+div.foot-bottom p.copyright span {
   color: #ddd;
 }
 
@@ -1971,5 +1992,3 @@ div.foot-bottom div.foot-right li a {
 div.foot-bottom div.foot-right li a:hover {
   color: #f5900d;
 }
-
-
